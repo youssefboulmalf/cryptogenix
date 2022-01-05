@@ -50,7 +50,7 @@ const Navigationbar = () => {
     return (
         <nav className='w-full p-4 flex md:justify-center justify-between items-center'>
             <div className='md:flex-[0.5] flex-initial justify-center items-center'>
-                <img src={logo.src} className='w-28 h-28 cursor-pointer'></img>
+                <img src={logo.src} className='w-14 h-14 cursor-pointer'></img>
             </div>
             <ul className='text-white font-semibold md:flex hidden list-none justify-betweem items-center flex-initial'>
                 {navItemsDesktop}
